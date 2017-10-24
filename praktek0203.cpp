@@ -6,4 +6,6 @@ int main(){
 	
 	double berat;
 	cin>>berat;
+	double ounce =1/ton;
+	double beratTon = berat*ounce;
 }
