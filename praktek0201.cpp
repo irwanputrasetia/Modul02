@@ -2,10 +2,16 @@
 using namespace std;
 
 int main(){
-	nilai=nilai+1;
-	int nilai;
-	int 1Nilai;
+	int nilai=1;
+	int Nilai;
+	int hasil;
 	
-	Cout<<nilai;
-	cout<<1Nilai;
+	cout<<"Masukkan Angka 1 = ";
+	cin>>nilai;
+	cout<<"Masukkan Angka 2 = ";
+	cin>>Nilai;
+	hasil=nilai + Nilai;
+	
+	cout<<"Hasil ="<<hasil;
+	return 0;
 }
